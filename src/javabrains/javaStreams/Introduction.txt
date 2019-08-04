@@ -1,0 +1,30 @@
+Stream Source
+// Streams can be created from Collections, Lists, Sets, ints, longs, doubles, arrays, lines of a file
+
+Intermediate Operations
+// Zero or more intermediate operations are allowed
+// Order matters for large datasets: filter first, the sort or map
+
+// For very large datasets use ParallelStream to enable multiple threads
+
+// Intermediate operations include:
+anymatch()
+distinct()
+filter()
+findFirst()
+flatmap()
+map()
+skip()
+sorted()
+
+Terminal Operations
+// One terminal operation is allowed
+// forEach applies the same function to each element.
+// collect saves the elements into a collection
+// other options reduce the stream to a single summary element.
+
+count()
+max()
+min()
+reduce()
+summaryStatistics()
