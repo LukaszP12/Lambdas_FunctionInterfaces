@@ -5,6 +5,12 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+// java.util.Collections.sort() method is present in java.util.Collections class.
+// It is used to sort the elements present in the specified list of Collection in ascending order/
+//
+// It works similar to java.util.Arrays.sort() method but it is better then as it
+// can sort the elements of Arrays as well as linked list, queue and many more present in it
+
 public class Runner {
 
     public static void main(String[] args) {
