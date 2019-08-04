@@ -1,3 +1,6 @@
+package javabrains.unit1;
+
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.*;
@@ -70,8 +73,6 @@ public class Lambda {
             return 123L;
         }
     };
-
-
 
 
 }

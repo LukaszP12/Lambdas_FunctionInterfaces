@@ -1,5 +1,6 @@
-public class Person {
+package javabrains.unit1;
 
+public class Person {
     private String firstName;
     private String lastName;
     private int age;
@@ -9,7 +10,6 @@ public class Person {
         this.lastName = lastName;
         this.age = age;
     }
-
 
     public String getFirstName() {
         return firstName;

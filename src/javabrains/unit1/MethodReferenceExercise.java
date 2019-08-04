@@ -1,3 +1,5 @@
+package javabrains.unit1;
+
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
 import java.util.function.Supplier;

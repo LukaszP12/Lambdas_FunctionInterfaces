@@ -1,3 +1,5 @@
+package javabrains.unit1;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
@@ -29,23 +31,9 @@ public class Unit1ExerciseSolutionJava8 {
         System.out.println("Printing all people with last name beginning with C");
         printConditionally(people, p -> p.getLastName().startsWith("C"));
 
-        // the same function, using Condition
-        /*printConditionally(people, new Unit1ExerciseSolutionJava7.Condition() {
-            @Override
-            public boolean test(Person p) {
-                return p.getLastName().startsWith("C");
-            }
-        });*/
-
         System.out.println("Printing all people with first names beginning with C");
         printConditionally(people, p -> p.getFirstName().startsWith("C"));
 
-        /*printConditionally(people, new Unit1ExerciseSolutionJava7.Condition() {
-            @Override
-            public boolean test(Person p) {
-                return p.getFirstName().startsWith("C");
-            }
-        });*/
 
     } // cannot declare function in main function
 

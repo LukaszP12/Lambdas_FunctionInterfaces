@@ -1,3 +1,5 @@
+package javabrains.unit1;
+
 public class Celebrity {
 
     private String name;

@@ -1,3 +1,5 @@
+package javabrains.unit1;
+
 public class RunnableInterface {
 
     public static void main(String[] args) {

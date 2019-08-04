@@ -1,4 +1,4 @@
-import java.util.stream.IntStream;
+package javabrains.unit1;
 
 public class Greeter {
 
