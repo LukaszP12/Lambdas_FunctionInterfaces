@@ -13,6 +13,7 @@ public class CollectionSort1 {
         //create an array of string obj
         String domains[] = {"Practice","Geeks","Code","Quiz"};
 
+
         // Here we are making a list named as Collist
         List collist = new ArrayList(Arrays.asList(domains));
 
