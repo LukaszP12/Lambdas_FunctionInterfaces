@@ -12,12 +12,14 @@ public class LambdaExamples {
             }
         };
 
-        int comparison = stringComparator.compare("hello","world");
-        System.out.println(comparison);
+        // int comparison = stringComparator.compare("hello","world");
+        // System.out.println(comparison);
 
-        //using lambda expression
-        Comparator<String> stringComparator1 =
-                (String o1, String o2) -> { return o1.compareTo(o2); };
+
+        Comparator<String> stringComparator1 = (String o1, String o2) -> { return o1.compareTo(o2); };
+
+        int lambdaComparison = stringComparator1.compare("hello","world");
+        System.out.println(lambdaComparison);
 
     }
 
